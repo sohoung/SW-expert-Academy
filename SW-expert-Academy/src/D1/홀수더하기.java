@@ -9,13 +9,25 @@ package D1;
 //           #2 208
 //           #3 121
 
-public class 홀수더하기 {
-    public int solution(int n, int[] arr) {
-        int answer = 0;
+import java.util.Scanner;
 
-        return answer;
-    }
+public class 홀수더하기 {
     public static void main(String[] args) {
-        
+        홀수더하기  m = new 홀수더하기();
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();  // test 갯수
+        int[] sumarr = new int[n];  // sum 값을 저장하는 배열
+        int[][] arr = new int[n][10];
+        for(int j = 0; j < n; j++) {
+            int sum = 0;
+            for (int i = 0; i < arr.length; i++) {
+                arr[j][i] = sc.nextInt();
+            }
+            sumarr[j] = sum;
+        }
+
+        for(int i = 0; i < n; i++) {
+            System.out.println("#" + i + " " + sumarr[i]);
+        }
     }
 }
