@@ -1,5 +1,4 @@
 package D1;
-
 import java.util.Scanner;
 
 // 설명 : 연월일 순으로 구성된 8자리의 날짜가 주어진다. 해당 날짜의 유효성을 판단한 후 날짜가 유효하다면 "YYYY/MM/DD" 형식으로 출력하고
