@@ -10,6 +10,6 @@ public class 알파벳을숫자로 {
         알파벳을숫자로  m = new 알파벳을숫자로();
         Scanner sc = new Scanner(System.in);
         String str = sc.next();
-        
+
     }
 }
